@@ -1,16 +1,9 @@
-# This is a sample Python script.
-import PIL
-from PIL import Image
-image = Image.open('IMAGE777.jpg')
-image=image.resize((600,400))
-import streamlit as st
-st.title("HAPPY NEW YEAR TOKTOK")
+# This is a sample Python scri
 option = st.selectbox(
     'CHOOSE YOUR BESTFRIENDS NAME OF 2022',
     ('AVTAR SAHANI','AVI','MONA MAAM','AFRIN','ANTHONY'))
 image2= Image.open('image2.jpg')
-image3=Image.open('image 3.jpg')
-def bestfrnd():
+image3=Image.open('image
     if option=='AVTAR SAHANI':
         st.write('Toktok yeah naam tum gusse se lete ho samje motu')
     elif option=='AVI':
@@ -38,8 +31,4 @@ LIST13=['13: SAAL ME DO BAAR CHUTTI LEKE KAHI ADVENTURE PE JANA HAIN']
 LIST14=['14: CAMPING KARNA HAIN']
 LIST15=['15: GYM JANA HAIN PAR YEH OPTIONAL HAIN Q KI TUM WAISE HI FIT HO']
 LIST16=['16: AUR BHI HAIN PAR WO BAAD ME BATAUNGA']
-LIST17=['17: SORRY MAAF KARNA TOKTOK SATANE K LIYE ITNA YEH SAAL']
-if st.button("Click here to see the new year list"):
-     st.write(LIST1,LIST2,LIST3,LIST4,LIST5,LIST6,LIST7,LIST8,LIST9,LIST10,LIST11,LIST12,LIST13,LIST14,LIST15,LIST16,LIST17)
-else:
-    pass
+L
